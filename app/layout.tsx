@@ -4,6 +4,9 @@ import "./globals.css";
 import HeaderTop from "@/components/HeaderTop";
 import Footer from "@/components/Footer";
 import Dashbody from "@/components/Dashbody";
+import Consultancy from "@/components/Services";
+import { ThemeProvider } from "@/components/theme-provider";
+import Services from "@/components/Services";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -17,7 +20,9 @@ export default function RootLayout() {
   return (
       <body>
         <HeaderTop/>
+        <ThemeProvider/>
         <Dashbody/>
+        <Services/>
         <Footer/>
       </body>
   );

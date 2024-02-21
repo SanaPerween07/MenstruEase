@@ -4,63 +4,23 @@ import { Button } from "./ui/button";
 
 const HeaderTop = () => {
   return (
-    <div className="border-b border-gray-200 hidden sm:block">
-      <div className="container py-8">
+    <div className="border-b border-gray-200 sm:block">
+      <div className="container py-4 bg-red-100">
         <div className="flex justify-between items-center">
-          <div className="Logo">
-            <Image src="/logoipsum-226.svg" width={50} height={50} alt="logo"/>
-            <p>MenstruEase</p>
+          <div className="Logo flex items-center">
+            <Image src="/icons8-flo.svg" width={58} height={50} alt="logo"/>
+            <span className='text-xl font-extrabold text-rose-700'>Menstru</span>
+            <span className='text-xl font-extrabold text-rose-500'>E<i>ase</i></span>
           </div>
           <div className="navbar">
-            <a href = '#' className="mr-4">Home</a>
-            <a href = '#' className="mr-4">Services</a>
-            <a href = '#' className="mr-4">Consultancy</a>
-            <a href = '#' className="mr-4">Calculaters</a>
-            <a href = '#' className="mr-4">Blogs</a>
+            <a href = '#' className="mr-8">Home</a>
+            <a href = '#' className="mr-8">Services</a>
+            <a href = '#' className="mr-8">Consultancy</a>
+            <a href = '#' className="mr-8">Blogs</a>
           </div>
           <div className="Button">
-            <Button variant='default' size='sm' className="btn mr-2">Login</Button>
-            <Button variant='default' size='sm'>Sign In</Button>
+            <Button variant='secondary' size='lg' className="btn btn-primary w-full md:w-auto bg-rose-300 hover:bg-rose-400 hover:shadow-md mr-2 rounded-xl">Login</Button>
           </div>
-          {/* <div className="hidden lg:flex gap-1">
-            <div className="header_top__icon_wrapper">
-              <BsFacebook />
-            </div>
-            <div className="header_top__icon_wrapper">
-              <BsTwitter />
-            </div>
-            <div className="header_top__icon_wrapper">
-              <BsInstagram />
-            </div>
-            <div className="header_top__icon_wrapper">
-              <BsLinkedin />
-            </div>
-          </div> */}
-
-          {/* <div className="text-gray-500 text-[12px]">
-            <b>FREE SHIPPING</b> THIS WEEK ORDER OVER - $55
-          </div> */}
-
-          {/* <div className="flex gap-4">
-            <select
-              className="text-gray-500 text-[12px] w-[70px]"
-              name="currency"
-              id="currency"
-            >
-              <option value="USD $">USD $</option>
-              <option value="EUR €">EUR €</option>
-              <option value="INR">INR</option>
-            </select>
-
-            <select
-              className="text-gray-500 text-[12px] w-[80px]"
-              name="language"
-              id="language"
-            >
-              <option value="English">English</option>
-              <option value="French">French</option>
-            </select>
-          </div> */}
         </div>
       </div>
     </div>
@@ -68,3 +28,4 @@ const HeaderTop = () => {
 };
 
 export default HeaderTop;
+``
