@@ -46,8 +46,8 @@ const Carousel = () => {
       <div
         className="items-center justify-center flex text-3xl font-bold md:pb-10 px-10
         bg-gradient-to-r
-        from-blue-500
-        to-green-300
+        from-rose-500
+        to-blue-300
         bg-clip-text
         text-transparent"
       >
