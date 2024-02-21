@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Services = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-12">
       <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-center text-rose-500">Services We Offer</h1>
       <div className="flex justify-center gap-8">
         <div className="w-1/4"></div>
