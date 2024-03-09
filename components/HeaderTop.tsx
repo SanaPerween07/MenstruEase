@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image"; 
 import { Button } from "./ui/button";
-import { Toggle } from "@/components/ui/toggle";
 
 
 
@@ -17,8 +16,9 @@ const HeaderTop = () => {
           </div>
           <div className="navbar">
             <a href = '#' className="mr-8 hover:text-rose-600 font-medium">Home</a>
+            <a href = '#' className="mr-8 hover:text-rose-600 font-medium">About</a>
             <a href = '#' className="mr-8 hover:text-rose-600 font-medium">Services</a>
-            <a href = '#' className="mr-8 hover:text-rose-600 font-medium">Consultancy</a>
+            <a href = '#' className="mr-8 hover:text-rose-600 font-medium">Tracker</a>
             <a href = '#' className="mr-8 hover:text-rose-600 font-medium">Blogs</a>
           </div>
           <div className="Button">
@@ -31,4 +31,4 @@ const HeaderTop = () => {
 };
 
 export default HeaderTop;
-``
+

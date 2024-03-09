@@ -5,8 +5,10 @@ import HeaderTop from "@/components/HeaderTop";
 import Footer from "@/components/Footer";
 import Dashbody from "@/components/Dashbody";
 import { ThemeProvider } from "@/components/ui/theme-provider";
+import SignUp from "@/components/SignUp";
+import HeroSection from "@/components/HeroSection";
 import Services from "@/components/Services";
-import Carousel from "@/components/Carousel";
+import Blogs from "@/components/Blogs";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,8 +24,10 @@ export default function RootLayout() {
         <HeaderTop/>
         <ThemeProvider/>
         <Dashbody/>
+        <SignUp/>
+        <HeroSection/>
         <Services/>
-        <Carousel/>
+        <Blogs/>
         <Footer/>
       </body>
   );
