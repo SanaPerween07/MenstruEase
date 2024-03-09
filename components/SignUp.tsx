@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Button } from "./ui/button";
 
 const SignUp = () => {
@@ -8,7 +9,7 @@ const SignUp = () => {
         <h4 className="text-lg font-semibold">
           Share your stories through us to the world
         </h4>
-        <h2 className="text-2xl font-bold">Let's end Period Stigma</h2>
+        <h2 className="text-2xl font-bold">Let end Period Stigma</h2>
         <p className="max-w-md">
           Sign Up and start contributing your first own blog on health and
           hygiene. Here at Shewin we respect privacy so you can opt stay
@@ -23,9 +24,9 @@ const SignUp = () => {
         </Button>
       </div>
       <div className="flex flex-col">
-        <img src="/signUp-stain.jpg" alt="stain" className="mb-2 rounded-xl" width={112} height={112}/>
-        <img src="/signUp-stain1.avif" alt="stain1" className="mb-2 rounded-xl" width={112} height={112}/>
-        <img src="/signUp-stain2.jpg" alt="stain2" className="mb-2 rounded-xl" width={112} height={112}/>
+        <Image src="/signUp-stain.jpg" alt="stain" className="mb-2 rounded-xl" width={112} height={112}/>
+        <Image src="/signUp-stain1.avif" alt="stain1" className="mb-2 rounded-xl" width={112} height={112}/>
+        <Image src="/signUp-stain2.jpg" alt="stain2" className="mb-2 rounded-xl" width={112} height={112}/>
       </div>
     </div>
   );

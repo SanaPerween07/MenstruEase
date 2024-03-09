@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 import { Button } from "./ui/button";
 
 const Dashbody = () => {
@@ -6,7 +7,7 @@ const Dashbody = () => {
         <div className="flex justify-center">
             <div className="max-w-4xl w-full flex items-center">
                 <div className="mr-6">
-                    <img src='./airy-colored-splashes-2.png' alt="Empowering Women" />
+                    <Image src='./airy-colored-splashes-2.png' alt="Empowering Women" />
                 </div>
                 <div>
                     {/* <h3 className="tagline text-lg text-red-700 font-serif font-bold text-center">
@@ -28,7 +29,7 @@ const Dashbody = () => {
                     </div>
                 </div>
                 <div className="mr-13"><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-                    <img src='./airy-multicolored-pastel-clouds-2.png' alt="Empowering Women" />
+                    <Image src='./airy-multicolored-pastel-clouds-2.png' alt="Empowering Women" />
                 </div>
             </div>
         </div>
