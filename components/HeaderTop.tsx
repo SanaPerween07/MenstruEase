@@ -22,7 +22,7 @@ const HeaderTop = () => {
             <a href = '#' className="mr-8 hover:text-rose-600 font-medium">Blogs</a>
           </div>
           <div className="Button">
-            <Button variant='secondary' size='lg' className="btn btn-primary w-full md:w-auto bg-rose-300 hover:bg-rose-400 hover:shadow-md mr-2 rounded-xl">Login</Button>
+              <Button variant='secondary' size='lg' className="btn btn-primary w-full md:w-auto bg-rose-300 hover:bg-rose-400 hover:shadow-md mr-2 rounded-xl">Login</Button>
           </div>
         </div>
       </div>

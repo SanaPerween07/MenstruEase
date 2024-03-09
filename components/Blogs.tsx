@@ -26,7 +26,7 @@ const Blogs: React.FC = () => {
         },
         {
             id: 3,
-            title: "Why Sanitation For Women Matters",
+            title: "Why Sanitation For Women Matters ?",
             content: "The United Nations Sustainable Development Goals are 17 initiatives to drastically improve the livelihood of people and the planet by 2030. Goal number 6 reads, “Ensure availability and sustainable ma...",
             author: "Sreetama Ghosh hazra",
             date: "March 10, 2024"
