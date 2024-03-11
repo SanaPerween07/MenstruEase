@@ -12,15 +12,15 @@ const HeroSection = () => {
 
         <div className="flex flex-col px-20">
           <div className="mb-8 flex items-center">
-            <Image src="/tracking.svg" alt="Tracking" className="mr-4" style={{ width: "80px" }} />
+            <Image src="/tracking.svg" alt="Tracking" className="mr-4" width={80} height={80}/>
             <p className="mt-2">Get predictions based on the most up-to-date science</p>
           </div>
           <div className="mb-8 flex items-center">
-            <Image src="/calender.svg" alt="Calendar" className="mr-4" style={{ width: "80px" }} />
+            <Image src="/calender.svg" alt="Calendar" className="mr-4" width={80} height={80}/>
             <p className="mt-2">Keep track of your cycle lengths to observe patterns</p>
           </div>
           <div className="flex items-center">
-            <Image src="/accuracy.svg" alt="Accuracy" className="mr-4" style={{ width: "80px" }} />
+            <Image src="/accuracy.svg" alt="Accuracy" className="mr-4" width={80} height={80} />
             <p className="mt-2">Your predictions get more accurate every time you track</p>
           </div>
         </div>

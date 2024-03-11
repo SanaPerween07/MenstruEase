@@ -34,7 +34,7 @@ const Blogs: React.FC = () => {
     ];
 
     return (
-        <div className="bg-amber-50 py-5">
+        <div className="bg-amber-50 py-10">
             <h1 className="font-bold text-center text-4xl py-10">Our Blog Stories</h1>
             <div className="flex flex-wrap justify-center mb-10 mr-2">
                 {blogs.map(blog => (
