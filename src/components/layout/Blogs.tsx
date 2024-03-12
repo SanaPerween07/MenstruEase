@@ -34,16 +34,16 @@ const Blogs: React.FC = () => {
     ];
 
     return (
-        <div className="bg-amber-50 py-10">
+        <div className="py-2 mt-[-80]">
             <h1 className="font-bold text-center text-4xl py-10">Our Blog Stories</h1>
             <div className="flex flex-wrap justify-center mb-10 mr-2">
                 {blogs.map(blog => (
                     <div key={blog.id} className="max-w-xs rounded overflow-hidden shadow-lg bg-white m-4 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
-                        <div className="px-6 py-4">
+                        <div className="px-6 py-4  bg-amber-50">
                             <div className="font-bold text-xl mb-2">{blog.title}</div>
                             <p className="text-gray-700 text-base">{blog.content}</p>
                         </div>
-                        <div className="px-6 pt-4 pb-2">
+                        <div className="px-6 pt-4 pb-2 bg-amber-50">
                             <div className="text-sm text-gray-600">Author: {blog.author}</div>
                             <div className="text-sm text-gray-600">Date: {blog.date}</div>
                         </div>

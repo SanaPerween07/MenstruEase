@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
-const SignUp = () => {
+const BlogStory = () => {
   return (
-    <div className="flex justify-between items-center bg-indigo-50 px-20 py-10">
+    <div className="flex justify-between items-center bg-gradient-to-r from-blue-300 to-green-100 px-20 py-10">
       <div className="max-w-l">
         <h4 className="text-lg font-semibold">
           Share your stories through us to the world
@@ -14,10 +15,11 @@ const SignUp = () => {
           hygiene. Here at Shewin we respect privacy so you can opt stay
           anynomous or privately share the story to us.
         </p>
-        <button className="mt-4 bg-rose-300 hover:bg-rose-400 hover:shadow-md h-10 rounded-xl px-5 py-2">
+        <Link href={'/Blog'}>
+        <button className="mt-4 bg-rose-400 hover:bg-rose-500 hover:shadow-md h-10 rounded-xl px-5 py-2">
             Share the World
         </button>
-
+        </Link>
       </div>
 
       <div className="ml-5 mt-[-90px] flex flex-col items-end">
@@ -42,4 +44,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default BlogStory;

@@ -1,10 +1,9 @@
 import Blogs from "../components/layout/Blogs";
 import Dashbody from "../components/layout/Dashbody";
-import Footer from "../components/layout/Footer";
-import HeaderTop from "../components/layout/HeaderTop";
 import HeroSection from "../components/layout/HeroSection";
 import Services from "../components/layout/Services";
-import SignUp from "../components/layout/SignUp";
+import BlogStory from "../components/layout/BlogStory";
+import Footer from "../components/layout/Footer";
 
 
 
@@ -13,10 +12,11 @@ export default function Home() {
   return (
     <main>
       <Dashbody/>
-      <SignUp/>
+      <BlogStory/>
       <HeroSection/>
       <Services/>
       <Blogs/>
+      <Footer/>
     </main>
   );
 }

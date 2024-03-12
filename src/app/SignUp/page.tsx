@@ -1,10 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
+import Footer from '@/src/components/layout/Footer';
 
-export default function Login() {
+export default function SignUp() {
   return (
+    <>
     <div className="flex justify-center items-center">
-      <div className="bg-slate-100 shadow-md rounded-lg px-8 py-10 mt-10 mb-10 max-w-md w-full">
+      <div className="bg-slate-200 shadow-md rounded-lg px-8 py-10 mt-10 mb-10 max-w-md w-full">
         <h1 className="text-2xl font-semibold mb-6 text-center">Welcome</h1>
         <form>
           <div className="mb-6">
@@ -33,5 +35,7 @@ export default function Login() {
         </form>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }

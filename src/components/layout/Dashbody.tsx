@@ -24,7 +24,7 @@ const Dashbody = () => {
                     </p>
                     <div className="flex justify-center mt-4"><br></br>
                     <Link href="/SignUp">
-                        <button className="btn btn-primary w-full md:w-auto bg-rose-300 hover:bg-rose-400 hover:shadow-md px-10 py-2 rounded-xl">
+                        <button className="btn btn-primary w-full md:w-auto bg-rose-400 hover:bg-rose-500 hover:shadow-md px-10 py-2 rounded-xl">
                         <i>Try MenstruEase today</i>
                         </button>
                     </Link>

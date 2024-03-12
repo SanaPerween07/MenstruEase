@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return(
-        <div className="flex flex-col items-center bg-rose-50 text-center text-white dark:bg-neutral-600 bottom-0 w-full">
+        <div className="flex flex-col items-center bg-rose-100 text-center text-white dark:bg-neutral-600 bottom-0 w-full">
             <div className="container pt-9">
                 <div className="mb-6 flex justify-center mt-4">
                     <a href="#!" className="mr-9 text-neutral-800 dark:text-neutral-200">
@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
             </div>
 
-        <div className="w-full bg-rose-50 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200"> © 2024 Copyright: 
+        <div className="w-full bg-rose-100 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200"> © 2024 Copyright: 
             <a className="text-neutral-800 dark:text-neutral-400" href="https://tw-elements.com/"> MenstruEase Inc.</a>
         </div>
     </div>
