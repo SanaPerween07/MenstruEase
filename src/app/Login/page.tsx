@@ -10,7 +10,7 @@ export default function Login() {
 
   function handleFormSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    fetch('/api/register', {
+    fetch('/api/Login', {
       method: 'POST',
       body: JSON.stringify({ email, password }),
       headers: { 'Content-Type': 'application/json' },
