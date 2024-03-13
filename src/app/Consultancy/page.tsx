@@ -7,7 +7,7 @@ export default function Consultancy() {
       
 
       <div className="max-w-md w-full px-5 py-5 mt-10 mb-10">
-      <h2 className="text-2xl font-bold mb-4 text-blue-700">Let's Book your appointment</h2>
+      <h2 className="text-2xl font-bold mb-4 text-blue-700">Let Book your appointment</h2>
       <form className='px-[-20] py-10'>
         <div className="mb-4">
           <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>

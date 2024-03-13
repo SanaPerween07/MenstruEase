@@ -25,19 +25,19 @@ export default function SignUp() {
         <form onSubmit={handleFormSubmit}>
           <div className="mb-6">
             <label htmlFor="firstname" className="block text-gray-700 text-sm font-bold mb-2">First name:</label>
-            <input type="text" placeholder="enter your first name" id="username" name="username" className="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" 
+            <input type="text" placeholder="enter your first name" id="firstname" name="firstname" className="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" 
                 value={firstname}
                 onChange={(ev) => setfirstname(ev.target.value)}/>
           </div>
           <div className="mb-6">
             <label htmlFor="lastname" className="block text-gray-700 text-sm font-bold mb-2">Last name:</label>
-            <input type="text" placeholder="enter your last name" id="username" name="username" className="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" 
+            <input type="text" placeholder="enter your last name" id="lastname" name="lastname" className="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" 
                 value={lastname}
                 onChange={(ev) => setlastname(ev.target.value)}/>
           </div>
           <div className="mb-6">
             <label htmlFor="email" className="block text-gray-700 text-sm font-bold mb-2">Email:</label>
-            <input type="string" placeholder="enter your email" id="username" name="username" className="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" 
+            <input type="string" placeholder="enter your email" id="email" name="email" className="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" 
                 value={email}
                 onChange={(ev) => setemail(ev.target.value)}/>
           </div>
@@ -45,7 +45,8 @@ export default function SignUp() {
             <label htmlFor="password" className="block text-gray-700 text-sm font-bold mb-2">Password:</label>
             <input type="password" placeholder="enter your password" id="password" name="password" className="border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" 
                 value={password}
-                onChange={(ev) => setpassword(ev.target.value)}/>
+                onChange={(ev) => setpassword(ev.target.value)}
+                autoComplete="current-password"/>
           </div>
           <div className="flex items-center justify-center">
             <button type="submit" className="bg-rose-400 hover:bg-rose-500 text-white font-bold py-3 px-8 rounded focus:outline-none focus:shadow-outline w-full">Create Account</button>

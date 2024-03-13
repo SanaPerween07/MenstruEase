@@ -35,6 +35,7 @@ export default function Login() {
                 className="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 value={email}
                 onChange={(ev) => setEmail(ev.target.value)}
+                autoComplete="username"
               />
             </div>
             <div className="mb-6">
@@ -50,6 +51,7 @@ export default function Login() {
                 className="border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
                 value={password}
                 onChange={(ev) => setPassword(ev.target.value)}
+                autoComplete="current-password"
               />
             </div>
             <div className="flex items-center justify-center">
