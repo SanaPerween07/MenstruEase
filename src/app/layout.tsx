@@ -17,12 +17,14 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <body>
-      <main>
-        <Navbar/>
-        {children}
-        <Footer/>
-      </main>
-    </body>
+    <html lang="en">
+      <body>
+        <main>
+          <Navbar />
+          {children}
+          <Footer />
+        </main>
+      </body>
+    </html>
   );
 }

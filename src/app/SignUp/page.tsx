@@ -9,14 +9,20 @@ export default function SignUp() {
   const [email, setemail] = useState('');
   const [password, setpassword] = useState('');
 
-  function handleFormSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleFormSubmit(e: React.FormEvent<HTMLFormElement>) {
+
     e.preventDefault();
-    fetch('/api/SignUp', {
+
+    // here we're just POSTing up the formdata to the corresponding route handler in the api dir.
+    const res = await fetch("../api/SignUp", {
       method: 'POST',
       body: JSON.stringify({ firstname, lastname, email, password }),
       headers: { 'Content-Type': 'application/json' },
     });
+
+    console.log(res)
   }
+
   return (
     <>
     <div className="flex justify-center items-center">

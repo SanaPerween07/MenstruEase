@@ -4,9 +4,6 @@ import HeroSection from "../components/layout/HeroSection";
 import Services from "../components/layout/Services";
 import BlogStory from "../components/layout/BlogStory";
 
-
-
-
 export default function Home() {
   return (
     <main>
